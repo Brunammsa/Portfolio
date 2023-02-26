@@ -1,0 +1,10 @@
+body {
+    background-color: #2b4f61;
+    color: #ecf7fc;
+}
+
+span {
+    color: aquamarine;
+    border: 1px solid cyan;
+    padding: 10px;
+}
