@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Seja bem vindo(a) ao meu Portfolio!
@@ -16,12 +22,21 @@
                 <p class="apresentacao__conteudo__texto">Olá! Sou Bruna Melo, desenvolvedora em construção inicialmente Back-end e futuramente Full-Stack nas 
                 linguagens HTML, CSS, PHP, JS/Node-JS e Python.</p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/brunammsa/">LinkedIn</a>
-                    <a class="apresentacao__links__link" href="https://github.com/Brunammsa">GitHub</a>
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/brunammsa/">
+                        <img src="./Assets/linkedin.png" alt="imagem linkedin">
+                        LinkedIn
+                    </a>
+                    <a class="apresentacao__links__link" href="https://github.com/Brunammsa">
+                        <img src="./Assets/github.png" alt="imagem github">
+                        GitHub
+                    </a>
                 </div>
         </section>
-        <img src="wa.jpg" alt="foto Bruna">
+        <img src="./Assets/wa.jpg" alt="foto Bruna">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Bruna M.M.Sá</p>
+    </footer>
 </body>
 </html>
