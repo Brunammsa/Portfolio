@@ -31,7 +31,7 @@ body {
 
 .cabecalho__menu{
     display: flex;
-    gap: 60px;
+    gap: 20px;
 }
 
 .cabecalho__menu__link{
@@ -181,7 +181,7 @@ body {
     }
 
     .cabecalho__menu {
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .apresentacao {
@@ -190,6 +190,14 @@ body {
     }
 
     .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__sobre_mim__texto {
+        width: auto;
+    }
+
+    .apresentacao__sobre_mim__texto__contato {
         width: auto;
     }
 }
