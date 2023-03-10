@@ -162,7 +162,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 38%;
+    width: 40%;
 }
 
 .rodape {
@@ -195,9 +195,11 @@ body {
 
     .apresentacao__sobre_mim__texto {
         width: auto;
+        padding: 5%;
     }
 
     .apresentacao__sobre_mim__texto__contato {
         width: auto;
+        padding: 5%;
     }
 }
