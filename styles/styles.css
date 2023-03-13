@@ -173,8 +173,7 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 0.8rem;
     font-weight: 400;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 @media (max-width: 797px) {
