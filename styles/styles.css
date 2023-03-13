@@ -173,7 +173,6 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 0.8rem;
     font-weight: 400;
-    align-self: flex-end;
 }
 
 @media (max-width: 797px) {
@@ -211,5 +210,9 @@ body {
     .apresentacao__sobre_mim__titulo {
         width: auto;
         padding: 1%; 
-    } 
+    }
+
+    .rodape {
+        align-self: flex-end;
+    }
 }
