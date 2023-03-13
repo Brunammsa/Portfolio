@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #15133C;
+    --cor-primaria: #2f2547;
     --cor-secundaria:#F1EEE9;
     --cor-terciaria: #EC994B;
     --cor-hover: #73777B;
@@ -182,6 +182,10 @@ body {
 
     .cabecalho__menu {
         justify-content: space-between;
+    }
+
+    .apresentacao__imagem {
+        width: 70%;
     }
 
     .apresentacao {
