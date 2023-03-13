@@ -173,6 +173,8 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 0.8rem;
     font-weight: 400;
+    position: absolute;
+    bottom: 0;
 }
 
 @media (max-width: 797px) {
@@ -210,9 +212,5 @@ body {
     .apresentacao__sobre_mim__titulo {
         width: auto;
         padding: 1%; 
-    }
-
-    .rodape {
-        margin-bottom: 0%;
     }
 }
