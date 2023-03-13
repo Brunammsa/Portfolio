@@ -213,6 +213,6 @@ body {
     }
 
     .rodape {
-        align-self: flex-end;
+        padding-bottom: 0%;
     }
 }
