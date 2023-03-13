@@ -195,11 +195,16 @@ body {
 
     .apresentacao__sobre_mim__texto {
         width: auto;
-        padding: 5%;
+        padding: 1%;
     }
 
     .apresentacao__sobre_mim__texto__contato {
         width: auto;
-        padding: 5%;
+        padding: 1%;
     }
+
+    .apresentacao__sobre_mim__titulo {
+        width: auto;
+        padding: 1%; 
+    } 
 }
