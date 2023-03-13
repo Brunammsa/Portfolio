@@ -126,7 +126,7 @@ body {
 }
 
 .apresentacao__curriculo__subconteudo {
-    margin-left: 30px;
+    text-indent: 30px;
 }
 
 .apresentacao__links {
@@ -204,16 +204,16 @@ body {
 
     .apresentacao__sobre_mim__texto {
         width: auto;
-        padding: 1%;
+        padding: 5% 1%;
     }
 
     .apresentacao__sobre_mim__texto__contato {
         width: auto;
-        padding: 1%;
+        padding: 5% 1%;
     }
 
     .apresentacao__sobre_mim__titulo {
         width: auto;
-        padding: 1%; 
+        padding: 5% 1%;
     }
 }
